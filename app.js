@@ -30,9 +30,9 @@ const projects = {
     },
     x4 : {
         name: "Grandma's Cookbook React Conversion",
-        img: '<a href="https://wrecket.github.io/GMCB-react-conversion/"><img id="x4" class="project img-fluid" src="img/gmcbreact.JPG" alt="Gradient finder tool"></a>',
+        img: '<a href="https://wrecket.github.io/grandmascookbook.co.uk/"><img id="x4" class="project img-fluid" src="img/gmcbreact.JPG" alt="Gradient finder tool"></a>',
         description: "<p>React app conversion of the GMCB, made with dynamicly rendered components in a one-page application. Bootstrapped with <span class='color bold'>create-react-app</span> and routed with <span class='color bold'>react-router-dom</span>. This was built with Javascript, React, HTML and CSS with Bootstrap</p>",
-        button: "<a href='https://wrecket.github.io/GMCB-react-conversion/'><button type='button' class='btn project-btn btn-warning'>Click to view</button></a>"
+        button: "<a href='https://wrecket.github.io/grandmascookbook.co.uk/'><button type='button' class='btn project-btn btn-warning'>Click to view</button></a>"
     }
 }
 
