@@ -326,7 +326,26 @@ button a:hover {
  }
 
  /* media */
+ @media (max-width: 1355px) {
+	.proj-desc {
+		text-align: right!important;
+		width: 50%;
+	}
+ }
+
+ @media (max-width: 1370px) {
+	.proj-desc {
+		text-align: right!important;
+		width: 50%;
+		font-size: 1.7rem;
+	}
+}
+
 @media (max-width: 1024px) {
+	.proj-desc {
+		text-align: right!important;
+		width: 50%;
+	}
 	.starline {
 		display: block;  
 		text-align: right;
@@ -335,12 +354,12 @@ button a:hover {
 		margin-left: auto!important;
 		margin-right: auto!important;
 	}
-	.proj-desc {
+	/* .proj-desc {
 		position: absolute;
 		bottom: 5%;
 		right: 2%;
 		width: 75%;
-	}
+	} */
 	.phone4 {
 		width: 100px !important;
 		position: absolute;
@@ -358,16 +377,76 @@ button a:hover {
 	  }
 }
 
+@media (max-width: 750px) {
+	.cloud-text{
+ 		font-size: 3rem;;
+	} 
+	#name {
+		font-size: 1rem;
+		margin-top: 1rem !important;
+	}
+	#projects {
+		text-align: right;
+	}
+	.Project__description{
+		width: 100% !important;
+		font-size: 0.7rem;
+		margin-left: 0!important;
+	}
+	.proj-desc {
+		width: 100%;
+	}
+	.float-proj {
+		transform: scale(0.4)!important;
+	} 
+	.star {
+		width: 15px;
+		height: 15px;
+		margin-left: 0!important;
+	}
+
  @media (max-width: 550px) {
+	.star__box {
+		margin-left: 2rem;
+	}
+	.star {
+		width: 30px;
+		height: 30px;
+		margin-left: 0!important;
+	}
+
+	#name {
+		margin-top: 0!important;
+	}
+
+	.proj-desc {
+		text-align: right!important;
+		width: 80%;
+		font-size: 0.7rem;
+	}
+
+	.float-proj {
+		transform: scale(0.5)!important;
+		margin-bottom: -1.5rem;
+	} 
+	
+	.cloud-text {
+		font-size: 2.5rem;
+		padding-top: 1rem;
+	 }
+
 	 .Project__description {
-		 margin-top: -25rem;
 		 margin-left: -5rem;
-		 text-align: center;
+		 margin-top: 1rem;
+		 text-align: right;
 	 }
 	.starline {
 		display: flex;  
 		text-align: center;
 		margin-left: 2rem;
+		padding-right: 0;
+		width: 100%;
+		margin-bottom: 0.5!important;
 	  }
 
 	  .star-row {
@@ -504,10 +583,6 @@ button a:hover {
 		50% {
 		  bottom: 0;
 		}
-	  }
-
-	  .float-tec {
-		  height: 1000px !important;
 	  }
 
 	  .proj-img-container {
