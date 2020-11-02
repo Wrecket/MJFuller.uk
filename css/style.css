@@ -360,7 +360,7 @@ button a:hover {
 
  @media (max-width: 550px) {
 	 .Project__description {
-		 margin-top: -28rem;
+		 margin-top: -25rem;
 		 margin-left: -5rem;
 		 text-align: center;
 	 }
